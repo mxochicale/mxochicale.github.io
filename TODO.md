@@ -7,9 +7,9 @@ TODO
 
 # TODO  LIST
 
+- [ ] Add news section
 - [ ] Change the background to black
 - [ ] Change profile picture
-- [ ] Add news section
 - [ ] Add posters and slides to https://www.researchgate.net/ and update the links in the "layouts/publications.html"
 - [ ] Add comment section to the posts
 - [ ] Update publication with the use of this template [bibtexbrowser/](http://blog.spd.gr/2012/04/bibtexbrowser-music-for-publication_09.html)
