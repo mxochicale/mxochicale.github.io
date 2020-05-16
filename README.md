@@ -1,8 +1,6 @@
-Repository for http://mxochicale.github.io/
-===========
+# My website
 
-> Miguel P. Xochicale  
-> Doctoral Reseracher in Human-Robot Interaction  
-> University of Birmingham UK (2014-2018)  
+Miguel Xochicale  
+http://mxochicale.github.io/
 
-[TODO List](https://github.com/mxochicale/mxochicale.github.io/blob/master/TODO.md)
+
