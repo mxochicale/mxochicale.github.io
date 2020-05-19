@@ -1,3 +1,4 @@
+.idea # ignore
 _site/
 **/*.jekyll-cache
 **/*.lock
