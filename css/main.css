@@ -34,9 +34,9 @@ p {
     color: #333;
 }
 footer {
-    text-align: center;
+    font-size: 1.5em;
+    text-align: left;
     #border-top: 1px solid #d5d5d5;
-    font-size: 1.3em;
 }
 ul.posts {
     margin: 20px auto 40px;
