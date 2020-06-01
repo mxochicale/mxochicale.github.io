@@ -1,11 +1,71 @@
-body {
-    margin: 60px auto;
-    width: 70%;
+/*
+ * Globals
+ */
+
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #63c8f6;
 }
-html, * {
-  font-weight: 366;
+
+a:hover {
+  color: #41b990;
+  text-decoration: underline;
+}
+
+.hidden {
+  display: none;
+}
+
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  background: #fff;
   font-family: 'Ubuntu', sans-serif;
 }
+body {
+  color: #333;
+  text-align: left;
+}
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+}
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+.cover-container {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2em;
+}
+
+/*
+ * Footer
+ */
+footer {
+    position: absolute;
+    font-size: 1.5em;
+    text-align: left;
+    width: 100%;
+    #border-top: 1px solid #d5d5d5;
+}
+
+
+/*
+ * To check
+ */
 nav ul, footer ul {
     font-family: 'Ubuntu', sans-serif;
     padding:20px;
@@ -16,14 +76,7 @@ nav ul li, footer ul li {
     display: inline;
     margin-right: 10px;
 }
-a {
-    font-weight: normal;
-    text-decoration: none;
-    color: #999;
-}
-a:hover {
-    text-decoration: underline;
-}
+
 h1 {
     font-size: 3em;
     font-family: 'Ubuntu', sans-serif;
@@ -43,10 +96,8 @@ ul.posts li {
     list-style: none;
 }
 
-footer {
-    position: absolute;
-    font-size: 1.5em;
-    text-align: left;
-    width: 100%;
-    #border-top: 1px solid #d5d5d5;
-}
+
+/*
+ * References:
+       https://github.com/theacodes/thea.codes/blob/master/static/style.css
+ */
