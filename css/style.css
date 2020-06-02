@@ -37,11 +37,27 @@ body {
  * Footer
  */
 footer {
-    position: absolute;
-    font-size: 1.5em;
-    text-align: left;
-    width: 100%;
-    #border-top: 1px solid #d5d5d5;
+   width: 100%;
+   text-align: center;
+}
+
+footer li {
+  list-style: none;
+  display: inline;
+  font-size: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+footer ul {
+  margin: 0;
+  padding: 0;
+}
+
+.flip {
+  display: inline-block;
+  transform: scaleX(-1);
+  filter: FlipH;
 }
 
 /*
@@ -77,8 +93,8 @@ ul.posts li {
     list-style: none;
 }
 
-
 /*
  * References:
        https://github.com/theacodes/thea.codes/blob/master/static/style.css
+       https://github.com/oliviaguest/oliviaguest.github.io/blob/master/css/style.css
  */
