@@ -61,6 +61,52 @@ footer ul {
 }
 
 /*
+ * Header
+ */
+  #header {
+    text-align: center;
+    padding: 6em 0 4em 0;
+  }
+
+    #header h1 {
+      color: rgba(0, 0, 0, 0.85);
+    }
+
+    #header .avatar {
+      border-radius: 100%;
+      display: inline-block;
+      margin: 0 0 2em 0;
+      padding: 0.5em;
+      border: solid 1px rgba(255, 255, 255, 0.25);
+      background-color: rgba(255, 255, 255, 0.075);
+    }
+
+      #header .avatar img {
+        border-radius: 100%;
+        display: block;
+        width: 10em;
+      }
+
+
+    ul.icons {
+      cursor: default;
+      list-style: none;
+      padding-left: 0;
+    }
+
+      ul.icons li {
+        display: inline-block;
+        font-size: 1.5rem;
+        padding: 0 1em 0 0;
+      }
+
+        ul.icons li:last-child {
+          padding-right: 0;
+        }
+
+
+
+/*
  * To check
  */
 nav ul, footer ul {
@@ -97,4 +143,5 @@ ul.posts li {
  * References:
        https://github.com/theacodes/thea.codes/blob/master/static/style.css
        https://github.com/oliviaguest/oliviaguest.github.io/blob/master/css/style.css
+       https://github.com/rodluger/rodluger.github.io/blob/master/assets/css/main_2.0.1.css
  */
