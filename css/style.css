@@ -105,6 +105,30 @@ footer ul {
         }
 
 
+/*
+ * related to accordion menu
+ */
+.cv {
+  font-size: 2rem;
+  /* padding-top: 0.5rem; */
+}
+
+.accordion {
+  cursor: pointer;
+  padding-bottom: 0.3rem;
+  padding-top: 0.3rem;
+}
+
+.panel {
+  margin-bottom: 0;
+  cursor: pointer;
+  outline: none;
+}
+
+.panel-content {
+  margin-left: 1rem;
+}
+
 
 /*
  * To check
