@@ -1,0 +1,7 @@
+{% assign pubs = site.data.publications | sort:"date" | reverse %}
+
+{% assign preprints = pubs | where:"type","preprint" %}
+{% assign articles = pubs | where:"type","journal" %}
+
+<h2>Publications</h2>
+{% include print_research.html pubs=pubs %}
