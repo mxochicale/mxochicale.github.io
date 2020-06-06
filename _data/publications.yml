@@ -6,6 +6,7 @@
   journal: HAI17 Proceedings of the 5th International Conference on Human Agent Interaction
   doi: 10.1145/3125739.3132595
   pdf: article.pdf
+  poster: article.pdf
   link: https://dl.acm.org/doi/abs/10.1145/3125739.3132595
   github: github.com/mxochicale/hai2017
   video: https://www.youtube.com/watch?v=mmi7I7lmjo4
@@ -28,6 +29,7 @@
   journal: WeRob2017 Proceedings of the 12th Annual Conference on Human-Robot Interaction
   doi: 10.1007/978-3-319-46532-6_25
   pdf: article.pdf
+  slides: slides.pdf
   link: https://link.springer.com/chapter/10.1007/978-3-319-46532-6_25
   github: github.com/mxochicale/werob2016
 
@@ -41,3 +43,13 @@
   pdf: article.pdf
   link: https://dl.acm.org/doi/10.1145/2914920.2940337
   github: github.com/mxochicale/perdis2016
+
+- date: 2018-10-17
+  type: journal
+  status: unpublished
+  authors:  <b>Xochicale, M.</b> & Baber, C.
+  title: 'Strengths and Weaknesses of Recurrent Quantification Analysis in the context of Human-Humanoid Interaction'
+  server: arXiv
+  arxiv-id: 1810.09249
+  link: https://arxiv.org/abs/11810.09249
+  arxiv: https://arxiv.org/abs/1810.09249

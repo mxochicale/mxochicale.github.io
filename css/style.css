@@ -168,9 +168,32 @@ ul.posts li {
     list-style: none;
 }
 
+
+.publication__link{
+    margin-top:5px !important;
+    margin-bottom:0px !important
+    }
+
+.publication__link-item{
+    font-size: 0.7em;
+    display:inline-block;
+    margin-right:5px;
+    margin-bottom:0px;
+    padding:0px 5px;
+    text-decoration:none;
+    border:1px solid #9ca2a6;
+    border-radius:4px;color:#7a8288
+    }
+
+.publication__link-item:hover{
+    text-decoration:none !important;
+    color:#017091
+}
+
 /*
  * References:
        https://github.com/theacodes/thea.codes/blob/master/static/style.css
        https://github.com/oliviaguest/oliviaguest.github.io/blob/master/css/style.css
        https://github.com/rodluger/rodluger.github.io/blob/master/assets/css/main_2.0.1.css
+       https://github.com/praveenv253/praveenv253.github.io/blob/master/assets/css/main.css
  */

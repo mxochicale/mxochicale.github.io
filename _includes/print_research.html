@@ -28,7 +28,7 @@
 
       <div class="small-icons">
       {% if pub.arxiv %}
-      <a href="{{ pub.arxiv }}" title="arXiv"><i class="ai ai-arxiv" aria-hidden="true"></i></a>
+        <a class="publication__link-item" href="{{ pub.arxiv }}" title="arXiv"><i class="ai ai-arxiv"></i> arXiv</a>
       {% endif %}
 
       {% if pub.biorxiv %}
@@ -40,7 +40,7 @@
       {% endif %}
 
       {% if pub.doi %}
-        <a href="//dx.doi.org/{{ pub.doi }}" title="DOI"><i class="ai ai-doi" aria-hidden="true"></i></a>
+        <a class="publication__link-item" href="//dx.doi.org/{{ pub.doi }}" title="DOI"><i class="ai ai-doi" aria-hidden="true"></i> doi</a>
       {% endif %}
 
       {% if pub.figshare %}
@@ -48,7 +48,7 @@
       {% endif %}
 
       {% if pub.github %}
-        <a href="//github.com/{{ pub.github }}" title="GitHub"><i class="fab fa-github"></i></a>
+        <a class="publication__link-item" href="//github.com/{{ pub.github }}" title="GitHub"><i class="fab fa-github"></i> Github</a>
       {% endif %}
 
       {% if pub.osf %}
@@ -64,12 +64,22 @@
       {% endif %}
 
       {%if pub.pdf %}
-        <a href="{{ pub.pdf }}" title="PDF"><i class="far fa-file-pdf"></i></a>
+        <a class="publication__link-item" href="{{ pub.pdf }}" title="PDF"><i class="far fa-file-pdf"></i> Full version</a>
+      {% endif %}
+
+      {%if pub.poster %}
+        <a class="publication__link-item" href="{{ pub.poster }}" title="Poster"><i class="fa fa-file-image"></i> Poster</a>
       {% endif %}
 
       {%if pub.video %}
-        <a href="{{ pub.video }}" title="Video"><i class="fas fa-video"></i></a>
+        <a class="publication__link-item" href="{{ pub.video }}" title="Video"><i class="fa fa-video"></i> Video</a>
       {% endif %}
+
+      {%if pub.slides %}
+        <a class="publication__link-item" href="{{ pub.slides }}" title="Slides"><i class="fa fa-caret-square-right"></i> Slides</a>
+      {% endif %}
+
+
 
     </div>
 
