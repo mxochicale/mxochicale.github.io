@@ -1,4 +1,4 @@
-.idea # ignore
+.idea # ignore temporal files of pycharm
 _site/
 **/*.jekyll-cache
 **/*.lock
