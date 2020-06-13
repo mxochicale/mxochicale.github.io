@@ -1,3 +1,9 @@
+#
+# This file contains configuration flags to customize your site
+#
+
+# Name of your site (displayed in the header)
 name: Miguel Xochicale
-markdown: kramdown
+
+#markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
