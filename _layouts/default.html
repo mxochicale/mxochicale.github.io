@@ -5,7 +5,9 @@
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
 		<head>
-			<title>{{ page.title }}</title>
+			<title>
+				{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}
+			</title>
 
 			{% include meta.html %}
 			{% include css.html %}
@@ -20,23 +22,9 @@
 		</head>
 
 		<body>
-
-			<nav>
-	    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/projects">Projects</a></li>
-        		<li><a href="/blog">Blog</a></li>
-	    		</ul>
-			</nav>
-
 			<div class="container">
-
 			{{ content }}
-
-			</div>
-
 			{% include footer.html %}
-
+			</div>
 		</body>
 	</html>
