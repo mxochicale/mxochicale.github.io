@@ -25,7 +25,6 @@ a:hover {
 html,
 body {
   font-family: 'Ubuntu', sans-serif;
-  height: 10%;
   background:
     radial-gradient(circle at 50% 0,
         rgba(255,0,0,.5),
@@ -35,9 +34,9 @@ body {
         rgba(0,0,255,0) 80.71%),
     radial-gradient(circle at 93.3% 75%,
         rgba(0,255,0,.5),
-        rgba(0,255,0,0) 80.71%) ,
-    url('../../images/background/photo-1550353127-b0da3aeaa0ca-quality25.jpeg') no-repeat center center;
-   	animation: gradient 5000s infinite;  /*ease ;*/
+        rgba(0,255,0,0) 80.71%),
+    url('../../assets/images/background/photo-1550353127-b0da3aeaa0ca-quality25.jpeg') no-repeat center center;
+   	animation: gradient 6000s infinite;  /*ease ;*/
    	/* url('https://images.unsplash.com/photo-1550353127-b0da3aeaa0ca') no-repeat center center; */
     /* url("../../images/background/chasing-chimeras.jpg"); */
     /* https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Images/Using_CSS_gradients */
@@ -90,7 +89,8 @@ footer ul {
   }
 
     #header h1 {
-      color: rgba(0, 0, 0, 0.85);
+        font-size: 2.5rem;
+        color: white;
     }
 
     #header .avatar {
@@ -144,6 +144,8 @@ footer ul {
   margin-bottom: 0;
   cursor: pointer;
   outline: none;
+  font-size: 2rem;
+  color: white;
 }
 
 .panel-content {
