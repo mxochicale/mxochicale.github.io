@@ -21,28 +21,36 @@ a:hover {
 /*
  * Base structure
  */
-
 html,
 body {
   font-family: 'Ubuntu', sans-serif;
   background:
-    radial-gradient(circle at 50% 0,
-        rgba(255,0,0,.5),
-        rgba(255,0,0,0) 80.71%),
-    radial-gradient(circle at 6.7% 75%,
+    radial-gradient( /*BLUE*/
+        circle at 50% 0,
         rgba(0,0,255,.5),
-        rgba(0,0,255,0) 80.71%),
-    radial-gradient(circle at 93.3% 75%,
+        rgba(0,0,255,0)
+        75%)
+    ,
+    radial-gradient(/*GREEN*/
+        circle at 6.7% 75%,
         rgba(0,255,0,.5),
-        rgba(0,255,0,0) 80.71%),
+        rgba(0,255,0,0)
+        75%)
+    ,
+     radial-gradient(/*RED*/
+        circle at 93.3% 75%,
+        rgba(255,0,0,.5),
+        rgba(255,0,0,0)
+        75%)
+     ,
     url('../../assets/images/background/photo-1550353127-b0da3aeaa0ca-quality25.jpeg') no-repeat center center;
    	animation: gradient 6000s infinite;  /*ease ;*/
    	/* url('https://images.unsplash.com/photo-1550353127-b0da3aeaa0ca') no-repeat center center; */
-    /* url("../../images/background/chasing-chimeras.jpg"); */
     /* https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Images/Using_CSS_gradients */
     /* https://onaircode.com/html-css-hero-image-background-examples/ */
     /* https://codepen.io/P1N2O/pen/pyBNzX */
 }
+
 body {
   color: #333;
   text-align: left;
@@ -53,6 +61,7 @@ body {
 		background-position: 0% 0%; /* The first value is the horizontal position and the second value is the vertical */
 	}
 }
+
 /*
  * Footer
  */
