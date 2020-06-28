@@ -213,8 +213,9 @@ ul.posts li {
     margin-bottom:0px;
     padding:0px 5px;
     text-decoration:none;
-    border:1px solid #9ca2a6;
-    border-radius:4px;color:#7a8288
+    border:1px solid #FF8C00;
+    border-radius:7px;
+    color:#FF8C00
     }
 
 .publication__link-item:hover{
