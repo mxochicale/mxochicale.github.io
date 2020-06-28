@@ -3,6 +3,8 @@
  */
 
 /* Links */
+
+
 a,
 a:focus,
 a:hover {
@@ -10,13 +12,24 @@ a:hover {
 }
 
 a:hover {
-  color: #41b990;
-  text-decoration: underline;
+text-decoration: none;
+color: white;
 }
 
 .hidden {
   display: none;
 }
+
+/* Green */
+a.green,
+a.green:hover { color: green; }
+/* White */
+a.white,
+a.white:hover {
+    text-decoration: none;
+    color: white;
+    border-bottom: 0.001rem solid white;
+    }
 
 /*
  * Base structure
