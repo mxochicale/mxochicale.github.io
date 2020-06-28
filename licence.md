@@ -21,3 +21,13 @@ The text and images within this website (*unless* otherwise stated) are released
 <a href="http://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International</a> (CC BY 4.0).
 If you have any questions regarding licensing of my code or my content, 
 feel free to <a href="mailto:perez.xochicale@gmail.com?Subject=Licensing" target="_top">contact me</a>.
+
+<h2>Details</h2>
+Many of what you see in my [website](https://github.com/mxochicale/mxochicale.github.io), 
+since its initial commit in [8 Feb 2016](https://github.com/mxochicale/mxochicale.github.io/commit/db3031aa3978a6a03382587c20f875fb1d638fcb),
+ is a collection of code from [a continuous searching of open-source acedemic sites](https://github.com/mxochicale/mxochicale.github.io/issues/1).
+However, I would say that the current template is mainly a combination of the sites 
+of [rodluger.github.io](https://github.com/rodluger/rodluger.github.io),
+[oliviaguest.github.io](https://github.com/oliviaguest/oliviaguest.github.io)
+and code snippets from [codepen.io](https://codepen.io/). 
+Many thanks to Rodrigo, Olivia and the community in codepen for putting your code open to anyone :)
