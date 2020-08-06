@@ -11,7 +11,7 @@ y de acceso abierto” eso y otras ideas les quiero compartir en el siguiente bl
 Bueno, me gustaria iniciar con los valores que mi papa y mama
 nos inculcaron (in)directamente a mi hermano y a mi desde temprana edad.
 Mama siendo costurera y Papa siendo peluquero con los 
-deseos de sus pequeños salieran adelante nos motivaban mucho
+deseos de que sus pequeños salieran adelante nos motivaban mucho
 con su constancia y su incansable esfuerzo. 
 Recuerdo que desde temprana edad aprendimos que dichas adversidades
 y limitaciones eran una gran lección para no dejarnos rendirnos
