@@ -3,10 +3,10 @@ layout: post
 title: "Mi camino en la ciencia"
 date: 2020-07-31
 ---
-Crear nuevo conocimiento me ha traído nuevos retos, obstáculos, 
+“Crear nuevo conocimiento trae constantes retos, obstáculos, 
 grandiosas experiencias, triunfos, derrotas y recuerdos de los subes y bajas 
 en esta meta de hacer una ciencia que sea transparente, reproducible 
-y de acceso abierto. 
+y de acceso abierto” eso y otras ideas les quiero compartir en el siguiente blog.
  
 Bueno, me gustaria iniciar con los valores que mi papa y mama
 nos inculcaron (in)directamente a mi hermano y a mi desde temprana edad.
