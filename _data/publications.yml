@@ -1,8 +1,19 @@
-- date: 2018-10-17
+- date: 2021-03-08
+  type: conference
+  status: published
+  authors: Montenegro R, Corona E., Perez-Badillo D., Cruz D., <b>Xochicale, M.</b>
+  title: 'AIR4Children: Artificial Intelligence and Robotics for Children'
+  journal: HRI2021 Proceedings of the 16th Annual Conference on Human-Robot Interaction
+  doi: doi-to-be-published
+  pdf: https://github.com/air4children/hri2021/blob/pdfs/article.pdf
+  slides: https://github.com/air4children/hri2021/blob/pdfs/slides.pdf
+  github: air4children/hri2021
+
+- date: 2020-12-30
   type: journal
   status: unpublished
   authors:  <b>Xochicale, M.</b> & Baber, C.
-  title: 'Strengths and Weaknesses of Recurrent Quantification Analysis in the context of Human-Humanoid Interaction'
+  title: 'Nonlinear methods to quantify Movement Variability in Human-Humanoid Interaction Activities'
   server: arXiv
   pdf: https://arxiv.org/pdf/1810.09249.pdf
   arxiv-id: 1810.09249
