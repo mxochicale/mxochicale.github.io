@@ -105,48 +105,54 @@ footer ul {
 /*
  * Header
  */
-  #header {
-    text-align: center;
-    padding: 4em 0 4em 0; /* top right bottom left */
-  }
+#header {
+  text-align: center;
+  padding: 4em 0 4em 0; /* top right bottom left */
+}
 
-    #header h1 {
-        font-size: 2.5rem;
-        color: white;
-    }
+#header h1 {
+  font-size: 2.5rem;
+  color: white;
+}
 
-    #header .avatar {
-      border-radius: 50%;
-      display: inline-block;
-      margin: 0 0 2em 0;
-      padding: 0.5em;
-      border: solid 1px rgba(255, 255, 255, 0.25);
-      background-color: rgba(255, 255, 255, 0.075);
-    }
+#header .avatar {
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 0 2em 0;
+  padding: 0.5em;
+  border: solid 1px rgba(255, 255, 255, 0.25);
+  background-color: rgba(255, 255, 255, 0.075);
+}
 
-      #header .avatar img {
-        border-radius: 100%;
-        display: block;
-        width: 10em;
-      }
+#header .avatar img {
+  border-radius: 100%;
+  display: block;
+  width: 10em;
+}
 
+ul.icons {
+  cursor: default;
+  list-style: none;
+  padding-left: 0;
+}
 
-    ul.icons {
-      cursor: default;
-      list-style: none;
-      padding-left: 0;
-    }
+ul.icons li {
+  display: inline-block;
+  font-size: 1.5rem;
+  padding: 0 1em 0 0;
+}
 
-      ul.icons li {
-        display: inline-block;
-        font-size: 1.5rem;
-        padding: 0 1em 0 0;
-      }
+ul.icons li:last-child {
+   padding-right: 0;
+}
 
-        ul.icons li:last-child {
-          padding-right: 0;
-        }
-
+/* List with circle */
+ul.bullets {
+  font-size: 1.1rem;
+  list-style-type: circle;
+  padding-right: 0;
+  color: white;
+}
 
 /*
  * related to accordion menu
@@ -187,7 +193,6 @@ footer ul {
 .color-title-text {
   color: DeepSkyBlue;
 }
-
 
 /*
  * To check
