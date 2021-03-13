@@ -178,6 +178,15 @@ footer ul {
   padding-left: 0.3rem;
 }
 
+/* To center images */
+.center-image {
+    text-align: center;
+}
+
+/* Color Green */
+.color-title-text {
+  color: DeepSkyBlue;
+}
 
 
 /*
