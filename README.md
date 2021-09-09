@@ -1,4 +1,4 @@
-# My website: [http://mxochicale.github.io/](http://mxochicale.github.io/)
+# My open accessible website: [http://mxochicale.github.io/](http://mxochicale.github.io/)
 [![Website](https://img.shields.io/badge/visit-website-blue.svg)](http://mxochicale.github.io/)
 [![License: CC BY 4.0](https://licensebuttons.net/l/by/4.0/80x15.png)](https://creativecommons.org/licenses/by/4.0/) 
 
@@ -25,11 +25,11 @@ git clone git@github.com:mxochicale/mxochicale.github.io.git
 cd $HOME/mxochicale.github.io
 ```
 3. Open two terminals: 
-* (a) to build the site:     
+* 1. to build the site:     
 ```
 bundle exec jekyll serve
 ```
-* (b) to make it available on a local server.
+* 2. to make it available on a local server.
 ```
 firefox http://127.0.0.1:4000/ #or google-chrome http://127.0.0.1:4000/
 ```
