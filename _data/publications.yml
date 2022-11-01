@@ -1,3 +1,31 @@
+- date: 2022-09-07
+  type: conference
+  status: published
+  authors: E. Kerfoot and <b>Xochicale M</b>  
+  title: ' SofHarDevOps4BioMedEng: Hands-on Workshop on Software and Hardware Developer Operations for Biomedical Engineers'
+  journal: 2nd conference on Reproducibility, replicability and trust in science 2022
+  # pdf: https://arxiv.org/pdf/2206.01731.pdf
+  # poster: https://github.com/budai4medtech/miua2022/blob/main/poster/resources/versions/drawing-v08.png
+  github: mxochicale/SofHarDevOps4BioMedEng/
+  # arxiv: https://arxiv.org/abs/2206.01731
+  # video: https://www.youtube.com/watch?v=wNKgScMzjPY
+
+
+
+- date: 2022-07-27
+  type: conference
+  status: published
+  authors: Bautista T, Matthew J, Kerdegari H, Peralta-Pereira L and <b>Xochicale M</b>
+  title: 'Empirical Study of Quality Image Assessment for Synthesis of Fetal Head Ultrasound Imaging with DCGANs'
+  journal: 26th Conference on Medical Image Understanding and Analysis (MIUA 2022)
+  pdf: https://arxiv.org/pdf/2206.01731.pdf
+  poster: https://github.com/budai4medtech/miua2022/blob/main/poster/resources/versions/drawing-v08.png
+  github: budai4medtech/miua2022
+  arxiv: https://arxiv.org/abs/2206.01731
+  video: https://www.youtube.com/watch?v=wNKgScMzjPY
+
+
+
 - date: 2021-03-08
   type: conference
   status: published
