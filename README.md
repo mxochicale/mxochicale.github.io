@@ -1,4 +1,4 @@
-# :octocat: My open accessible website: [http://mxochicale.github.io/](http://mxochicale.github.io/)
+# :scientist: :unlock: :octocat: My open source website: [http://mxochicale.github.io/](http://mxochicale.github.io/)
 [![Website](https://img.shields.io/badge/visit-website-blue.svg)](http://mxochicale.github.io/)
 [![License: CC BY 4.0](https://licensebuttons.net/l/by/4.0/80x15.png)](https://creativecommons.org/licenses/by/4.0/) 
 
@@ -18,11 +18,12 @@ gem install jekyll bundler
 ## :computer: Local development
 1. Clone repo
 ```
+mkdir -p $HOME/repositories/mxochicale && cd $HOME/repositories/mxochicale
 git clone git@github.com:mxochicale/mxochicale.github.io.git
 ```
 2. Change path
 ```
-cd $HOME/mxochicale.github.io
+cd $HOME/repositories/mxochicale.github.io
 ```
 3. Open two terminals: 
 * 1. to build the site:     
