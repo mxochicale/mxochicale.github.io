@@ -17,7 +17,7 @@ $(function() {
   } else if (hash === 'code') {
     active = 1;
   } else if (hash === 'cv') {
-      active = 2;
+    active = 2;
   }
   if (hash) {
     $('#accordion').accordion('option', 'active', active);
