@@ -26,11 +26,11 @@ git clone git@github.com:mxochicale/mxochicale.github.io.git
 cd $HOME/repositories/mxochicale.github.io
 ```
 3. Open two terminals: 
-* 1. to build the site:     
+  * 3.1. to build the site:     
 ```
 bundle exec jekyll serve
 ```
-* 2. to make it available on a local server.
+  * 3.2. to make it available on a local server.
 ```
 firefox http://127.0.0.1:4000/ #or google-chrome http://127.0.0.1:4000/
 ```
