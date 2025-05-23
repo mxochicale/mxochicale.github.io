@@ -112,6 +112,19 @@ footer ul {
 
 #header h1 {
   font-size: 2.5rem;
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+}
+
+#header h2 {
+  font-size: 1.5rem;
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+}
+
+#header h3 {
+  font-size: 1.1rem;
+  font-family: 'Ubuntu', sans-serif;
   color: white;
 }
 
@@ -208,10 +221,6 @@ nav ul li, footer ul li {
     margin-right: 10px;
 }
 
-h1 {
-    font-size: 3em;
-    font-family: 'Ubuntu', sans-serif;
-}
 p {
     font-size: 1.2em;
     line-height: 1.4em;

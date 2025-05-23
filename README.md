@@ -6,7 +6,7 @@
 * Machine running GNU/Linux OS 
 * Ubuntu dependencies (as I am a [Ubuntu](https://en.wikipedia.org/wiki/Ubuntu) user): 
 ```
-#In Ubuntu 20.04x64
+#In Ubuntu 20.04x64 onwards
 sudo apt-get install ruby-full build-essential zlib1g-dev
 echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
 echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
@@ -23,7 +23,7 @@ git clone git@github.com:mxochicale/mxochicale.github.io.git
 ```
 2. Change path
 ```
-cd $HOME/repositories/mxochicale.github.io
+cd $HOME/repositories/mxochicale/mxochicale.github.io
 ```
 3. Open two terminals: 
   * 3.1. to build the site:     
